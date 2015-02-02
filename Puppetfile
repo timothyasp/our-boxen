@@ -45,7 +45,7 @@ github "gcc",         "2.2.0"
 github "git",         "2.7.1"
 github "go",          "2.1.0"
 github "homebrew",    "1.11.2"
-github "hub",         "1.3.0"
+#github "hub",         "1.3.0" # I don't use hub
 github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.4.4"
 github "nodejs",      "4.0.0"
@@ -58,5 +58,31 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.
+# Personal modules
+github "osx",         "2.8.0"
+github "vim",         "1.0.5"
+github "python",      "2.0.0"
+github "chrome",      "1.2.0"
+github "firefox",     "1.2.3"
+github "opera",       "0.3.3"
+github "iterm2",      "1.2.4"
+github "java",        "1.8.0"
+github "skype",       "1.1.0"
+github "alfred",      "1.4.0"
+github "adium",       "1.4.0"
+github "android",     "1.3.1"
+
+# required for PHP
+github "libpng",      "1.0.0"
+github "autoconf",    "1.0.0"
+github "libtool",     "1.0.0"
+github "pcre",        "1.0.0"
+github "wget",        "1.0.1"
+github "mysql",       "1.99.19"
+github "php",         "1.2.6"
+
+github "shiftit",     "0.0.2"
+github "cloudapp",    "1.0.2"
+github "spotify",     "1.0.2"
+github "lastpass",    "1.1.0", :repo => "dieterdemeyer/puppet-lastpass"
+github "virtualbox",  "1.0.14", :repo => "jedcn/puppet-virtualbox"
