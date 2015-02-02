@@ -26,7 +26,7 @@ class people::timothyasp::applications {
    include pcre
 
    include mysql
-   mysql::db { 'devdb' }
+   mysql::db { 'devdb': }
 
    include php
 
@@ -38,7 +38,7 @@ class people::timothyasp::applications {
    include android::studio
    include android::doc
 
-   android::build_tools { '20' }
+   android::build_tools { '20': }
 
    package {
       [
