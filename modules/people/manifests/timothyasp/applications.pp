@@ -7,17 +7,17 @@ class people::timothyasp::applications {
    include iterm2::stable
    include iterm2::colors::solarized_dark
 
-   include vim
+   include python
+
+#   include vim
 
    include shiftit
    include adium
    include skype
    include alfred
    include spotify
-   include cloudapp
+#   include cloudapp
    include lastpass
-
-   include python
 
    include libpng
    include autoconf
@@ -25,10 +25,10 @@ class people::timothyasp::applications {
    include wget
    include pcre
 
-   include mysql
-   mysql::db { 'devdb': }
+#   include mysql
+#   mysql::db { 'devdb': }
 
-   include php
+#   include php
 
    include java
 
