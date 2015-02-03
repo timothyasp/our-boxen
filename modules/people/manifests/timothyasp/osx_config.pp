@@ -10,6 +10,11 @@ class people::timothyasp::osx_config {
      enabled => false,
    }
 
+   # Make dem icons tiny
+   class { 'osx::dock::icon_size':
+      size => 24,
+   }
+
    include osx::finder::unhide_library
    include osx::finder::show_hidden_files
    include osx::finder::show_all_filename_extensions
